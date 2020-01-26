@@ -1,6 +1,6 @@
 #!/bin/bash
-n=5
+n=8
 for((i=1; i<=n; i++))
 do
-echo $i
+echo -n "$i "
 done
